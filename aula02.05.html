@@ -6,23 +6,27 @@
     <title>Logicia de Programacao</title>
 </head>
 <body>
-    <h1>Logica de Programacao</h1>;
+    <h1>Logica de Programacao</h1>
 
     <script>
         
         //Pedir para o usuário digitar dois números
         var n1 = prompt('digite um numero');
-        n1 = parseFloat(n1);
+        n1 = parseInt(n1);
 
         var n2 = prompt('digite outro numero');
-        n2 = parseFloat(n2);
+        n2 = parseInt(n2);
 
         var media = (n1+ n2) /2;
 
         alert('A média é: ' + media);
 
+        //Mostrar um alert com o seguinte texto: "O resto da divisão de (n1) por (n2) é: (resultado da divisão)"
+        var resto = n1 % n2;
+        alert('O resto da divisão de ' + n1 + ' por ' + n2 + ' é: ' + resto );
 
         
+
     </script>
 </body>
 </html>
