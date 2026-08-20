@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica de Programacao</title>
+</head>
+<body>
+    <h1>
+        Logica de Programação com Javascript
+    </h1>
+
+  
+</body>
+
+  <script>
+    // Pedir para o usuário digiitar dois números e mostrar uma mensagem informando se foi aprovado ou não
+    // Se qualquer uma das notas for igual a 0, ele será reprovado automaticamente.
+
+    var n1 = parseInt(prompt('Digite sua primeira nota'));
+
+    var n2 = parseInt(prompt('Digite sua segunda nota'));
+
+    var media = ((n1+n2) / 2);
+
+    if(media >5 && n1 >0 && n2>0){
+        alert('Parabéns! você foi aprovado')
+    }else{
+        alert('Desculpe, mas não foi dessa vez')
+    }
+  </script>
+</html>
